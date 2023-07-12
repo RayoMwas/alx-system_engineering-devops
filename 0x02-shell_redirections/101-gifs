@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -type f -name "*.gif" -empty | ls -a1X --sort=size --sort=extension --indicator-style=none 
